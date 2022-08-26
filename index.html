@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John dau</title>
+    <!-- 1.link css, use specified font 
+         (the latter written the more important)
+         2.Change title
+         3.Make concrete layout
+         4.use grid tech more often (this website 
+         has 3 part with grid if use carefully)
+         5. if you can, try bootstrap
+         6. have fun!!
+         7. 2 days arent the deadline, 5 days is, so good luck
+        
+              -->
+     <link rel="icon" href="https://th.bing.com/th/id/OIP.04caQkzPyiaka1sR3qGIqwHaHa?pid=ImgDet&rs=1" type="image/icon">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />         
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Normal roboto: has 3 specified weight: 300, 600, 900
+          roboto on google: has unlimited weight
+          ===> embed from google is good -->
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" >         
+     <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+     <div class="app">
+          <div class="sidebar">
+               <div class="sidebar__wrapper">
+                    <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="" class="sidebar__avatar">
+                    <ul class="sidebar__list">
+                         <li class="sidebar-item">
+                              <a href="" class="sidebar-item-link">
+                                   <i class="sidebar-icon fa fa-home"></i>
+                                   <span>Home</span>
+                              </a>
+                         </li>
+                         <li class="sidebar-item">
+                              <a href="" class="sidebar-item-link">
+                                   <i class="sidebar-icon fa fa-user"></i>
+                                   <span>About</span>
+                              </a>
+                         </li>
+                         <li class="sidebar-item">
+                              <a href="" class="sidebar-item-link">
+                                   <i class="sidebar-icon fa fa-eye"></i>
+                                   <span>Photos</span>
+                              </a>
+                         </li>
+                         <li class="sidebar-item">
+                              <a href="" class="sidebar-item-link">
+                                   <i class="sidebar-icon fa fa-envelope"></i>
+                                   <span>Contact</span>
+                              </a>
+                         </li>
+                    </ul>
+               </div>
+          </div>
+          <div class="containter">
+               <div class="grid">
+                    <div class="home">
+                         <h1 class="home__heading">I'm John Doe.</h1>
+                         <p class="home__desc">Photographer and Web Designer.</p>
+                         <img src="https://www.w3schools.com/w3images/man_smoke.jpg" alt="" class="home__img">
+                    </div>
+
+                    <div class="about">
+                         <h3 class="about__heading">
+                              My Name
+                         </h3>
+                         <span class="aes-line"></span>
+                         <p class="about__desc">
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto a, corrupti ut voluptas nostrum quos odio atque aperiam quam minima, ratione nulla. At optio tempore sed officia itaque nisi. Fugit.
+                              Obcaecati, temporibus harum maiores minima explicabo nobis voluptatum maxime quia deserunt, consequatur, eligendi pariatur sint dolor eveniet provident velit. Inventore eligendi dolor beatae corrupti provident quas fugit perferendis exercitationem nam?
+                              Eum vero veniam eaque sequi accusamus dolorem est officia at. Doloribus reiciendis ratione nisi cum quisquam delectus tempore non aliquam enim! Totam consequuntur illum itaque laboriosam corrupti inventore commodi odio.
+                         </p>
+                         <h3 class="about__heading-small">
+                              My Skills
+                         </h3>
+                         <span class="about__skill">
+                              Photography
+                              <div class="about__chart">
+                                   <div class="about__chart-filled filled-95"></div>
+                              </div>
+                         </span>
+                         <span class="about__skill">
+                              Web Design
+                              <div class="about__chart">
+                                   <div class="about__chart-filled filled-85"></div>
+                              </div>
+                         </span>
+                         <span class="about__skill">
+                              Photoshop
+                              <div class="about__chart">
+                                   <div class="about__chart-filled filled-80"></div>
+                              </div>
+                         </span>
+                         <div class="about__stats">
+                              <ul class="about__stats-list">
+                                   <li class="about__stats-item">
+                                        <span class="about__stats-item-num bold">11+</span>
+                                        <span>Partners</span>
+                                   </li>
+                                   <li class="about__stats-item">
+                                        <span class="about__stats-item-num bold">55+</span>
+                                        <span>Projects Done</span>
+                                   </li>
+                                   <li class="about__stats-item">
+                                        <span class="about__stats-item-num bold">89+</span>
+                                        <span>Happy Clients</span>
+                                   </li>
+                                   <li class="about__stats-item">
+                                        <span class="about__stats-item-num bold">150+</span>
+                                        <span>Meetings</span>
+                                   </li>
+                              </ul>
+                         </div>
+
+                         <button class="btn download-btn">
+                              <i class="download-btn-icon fa fa-download"></i>
+                              Download Resume
+                         </button>
+                         
+                         <h3 class="about__heading-small">
+                              My Price
+                         </h3>
+                         <div class="grid__row">
+                              <div class="grid__column-2">
+                                   <div class="pricing">
+                                        <h4 class="pricing__heading">
+                                             Basic
+                                        </h4>
+                                        <ul class="pricing__category">
+                                             <li class="pricing__item">Web Design</li>
+                                             <li class="pricing__item">Photography</li>
+                                             <li class="pricing__item">5GB Storage</li>
+                                             <li class="pricing__item">Mail Support</li>
+                                             <li class="pricing__item-offer">
+                                                  <h2 class="pricing__price-price">$ 10</h2>
+                                                  <span class="pricing__price-text">per month</span>
+                                             </li>
+                                        </ul>
+                                        <div class="signup-btn__wrapper">
+                                             <button class="btn signup-btn">Sign Up</button>
+                                        </div>     
+                                   </div>
+                              </div>
+                              <div class="grid__column-2">
+                                   <div class="pricing">
+                                        <h4 class="pricing__heading">
+                                             Pro
+                                        </h4>
+                                        <ul class="pricing__category">
+                                             <li class="pricing__item">Web Design</li>
+                                             <li class="pricing__item">Photography</li>
+                                             <li class="pricing__item">50GB Storage</li>
+                                             <li class="pricing__item">Endless Support</li>
+                                             <li class="pricing__item-offer">
+                                                  <h2 class="pricing__price-price">$ 25</h2>
+                                                  <span class="pricing__price-text">per month</span>
+                                             </li>
+                                        </ul>
+                                        <div class="signup-btn__wrapper">
+                                             <button class="btn signup-btn">Sign Up</button>
+                                        </div>     
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <h3 class="about__heading-small">
+                         My Reputation
+                    </h3>
+
+                    <div class="about__reputation">
+                         <ul class="reviewer-list">
+                              <li class="reviewer-item">
+                                   <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="" class="reputation-img">
+                                   <div class="reputation-reviewer-wrapper">
+                                        <div class="reputation-reviewer">
+                                             <span class="reviewer-name">Chris Fox.</span>
+                                             <span class="reviewer-occupation">CEO at Mighty Schools</span>
+                                        </div>
+                                        <p class="reputation-comment">John Doe saved us from a web disaster</p>
+                                   </div>
+                              </li>
+                              <li class="reviewer-item">
+                                   <img src="https://scontent.fhan4-1.fna.fbcdn.net/v/t1.6435-1/70197878_403477947232776_1006810625617166336_n.jpg?stp=c163.88.180.180a_cp0_dst-jpg_s60x60&_nc_cat=105&ccb=1-7&_nc_sid=7206a8&_nc_ohc=PeyEFNRvEEwAX-djhp-&tn=NdcaJ_k8_RYAbspF&_nc_ht=scontent.fhan4-1.fna&oh=00_AT9VE39zgi3MYr594HkDFcWv0BwPDKDnnJye4HflDlPxKA&oe=6301E4DE" alt="" class="reputation-img">
+                                   <div class="reputation-reviewer-wrapper">
+                                        <div class="reputation-reviewer">
+                                             <span class="reviewer-name">Tri percy.</span>
+                                             <span class="reviewer-occupation">CEO at your local store</span>
+                                        </div>
+                                        <p class="reputation-comment">John Doe helps me cure my cancer and he is also my 2nd husband, life has never been better</p>
+                                   </div>
+                              </li>
+                              <li class="reviewer-item">
+                                   <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="" class="reputation-img">
+                                   <div class="reputation-reviewer-wrapper">
+                                        <div class="reputation-reviewer">
+                                             <span class="reviewer-name">Rebecca Flex.</span>
+                                             <span class="reviewer-occupation">CEO at Company.</span>
+                                        </div>
+                                        <p class="reputation-comment">No one is better than John Doe.</p>
+                                   </div>
+                              </li>
+                         </ul>
+                    </div>
+
+                    <div class="photo">
+                         <h3 class="about__heading">
+                              My Photos
+                         </h3>
+                         <span class="aes-line"></span>
+                         <div class="grid__row">
+                              <div class="grid__column-2">
+                                   <img src="https://www.w3schools.com/w3images/wedding.jpg" alt=""  class="photo_img">
+                                   <img src="https://www.w3schools.com/w3images/sailboat.jpg" alt="" class="photo_img">
+                                   <img src="https://www.w3schools.com/w3images/rocks.jpg" alt="" class="photo_img">
+                              </div>
+                              <div class="grid__column-2">
+                                   <img src="https://www.w3schools.com/w3images/underwater.jpg" alt="" class="photo_img">
+                                   <img src="https://www.w3schools.com/w3images/chef.jpg" alt="" class="photo_img">
+                                   <img src="https://www.w3schools.com/w3images/wedding.jpg" alt="" class="photo_img">
+                                   <img src="https://www.w3schools.com/w3images/p6.jpg" alt="" class="photo_img">
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="contact">
+                         <h3 class="about__heading">
+                              Contact me
+                         </h3>
+                         <span class="aes-line"></span>
+                         <div class="contact__method">
+                              <span class="contact__method-item">
+                                   <i class="contact__method-icon fa-solid fa-location-dot"></i>
+                                   <span class="contact__desc">
+                                        Chicago, US
+                                   </span>
+                              </span>
+                              <span class="contact__method-item">
+                                   <i class="contact__method-icon fa fa-phone"></i>
+                                   <span class="contact__desc">
+                                        Phone: +00 151515
+                                   </span>
+                              </span>
+                              <span class="contact__method-item">
+                                   <i class="contact__method-icon fa fa-envelope"> </i>
+                                   <span class="contact__desc">
+                                        Email: mail@mail.com
+                                   </span>
+                              </span>
+
+                         </div>
+                         <p class="contact__text">
+                              Let's get in touch, Send me a message:
+                         </p>
+                         <div class="contact__inputs">
+                              <div class="contact__inputs-form">
+                                   <input type="text" name="" id="" required placeholder="Name" class="contact__input-form-control">
+                              </div>
+                              <div class="contact__inputs-form">
+                                   <input type="email" name="" id="" required placeholder="Email" class="contact__input-form-control">
+                              </div>
+                              <div class="contact__inputs-form">
+                                   <input type="text" name="" id="" required placeholder="Subject" class="contact__input-form-control">
+                              </div>
+                              <div class="contact__inputs-form">
+                                   <input type="text" name="" id="" required placeholder="Message" class="contact__input-form-control">
+                              </div>
+                         </div>
+                         <button class="btn send-msg-btn">
+                              <i class="send-msg-btn-icon fa fa-paper-plane"></i>
+                              Send Message
+                         </button>
+                    </div>
+
+                    <div class="footer">
+                         <ul class="footer__socials">
+                              <li class="footer__socials-item">
+                                   <i class="footer__socials-item-icon fa-brands fa-facebook"></i>
+                              </li>
+                              <li class="footer__socials-item">
+                                   <i class="footer__socials-item-icon fa-brands fa-instagram"></i>
+                              </li>
+                              <li class="footer__socials-item">
+                                   <i class="footer__socials-item-icon fa-brands fa-snapchat"></i>
+                              </li>
+                              <li class="footer__socials-item">
+                                   <i class="footer__socials-item-icon fa-brands fa-pinterest-p"></i>
+                              </li>
+                              <li class="footer__socials-item">
+                                   <i class="footer__socials-item-icon fa-brands fa-twitter"></i>
+                              </li>
+                              <li class="footer__socials-item">
+                                   <i class="footer__socials-item-icon fa-brands fa-linkedin-in"></i>
+                              </li>
+                         </ul>
+                         <p class="footer__text">Powered by <a class="footer__origin">w3.css</a></p>
+                    </div>
+               </div>
+          </div>
+     </div>
+</body>
+</html>
