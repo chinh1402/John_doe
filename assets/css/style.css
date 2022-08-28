@@ -94,6 +94,21 @@ html {
     position: relative;
 }
 
+.sidebar-item--actived .sidebar-item-link {
+    background-color: #000;
+}
+
+.sidebar-item--actived .sidebar-item-link:hover .sidebar-icon
+{
+    color: #000;
+}
+
+.sidebar-item--actived .sidebar-item-link:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+
 .sidebar-item-link {
     width: 100%;
     height: 100%;
@@ -104,6 +119,7 @@ html {
     text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: 300;
+    outline: none;
 }
 
 .sidebar-item-link:hover{
