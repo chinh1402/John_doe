@@ -15,7 +15,7 @@ html {
 /* selfmade grid system */
 
 .grid {
-    width: 786px;
+    width: 980px;
     max-width: 100%;
     margin: 0 auto;
     /* auto is either take up the available space or 0px */
@@ -43,13 +43,13 @@ html {
 /* common */
 
 .bold {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .btn {
-    min-width: 168px;
-    padding: 9px 8px;
-    margin-top: 28px;
+    min-width: 208px;
+    padding: 13px 14px;
+    margin-top: 32px;
     cursor: pointer;
     outline: none;
     text-decoration: none;
@@ -66,7 +66,7 @@ html {
     position: fixed;
     top: 0;
     bottom: 0;
-    width: 96px;
+    width: 120px;
     background-color: #222222;
 }
 
@@ -80,7 +80,7 @@ html {
     list-style: none;
     padding:0;
     margin:0;
-    height: 320px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,7 +102,7 @@ html {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
 }
 
@@ -111,7 +111,7 @@ html {
 }
 
 .sidebar-icon {
-    font-size: 2.2rem;
+    font-size: 3rem;
     color: #fff;
     margin:auto;
 }
@@ -119,7 +119,7 @@ html {
 .sidebar-item-link .fa-envelope {
     position:relative;
     top:5px;
-    font-size: 2.9rem;
+    font-size: 3.5rem;
     /* envelope icon is lil too small */
 }
 
@@ -138,7 +138,7 @@ html {
 .containter {
     position: relative;
     background-color: #000;
-    margin-left: 96px;
+    margin-left: 120px;
     padding: 12px 24px;
 }
 
@@ -151,17 +151,18 @@ html {
 }
 
 .home__heading {
-    font-size: 6rem;
+    font-size: 7.5rem;
     font-weight: 300;
 }
 
 .home__desc {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 300;
 }
 
 .home__img {
     width: 100%;
+    /* transform: scale(0.5) */
 }
 
 /* About */
@@ -170,27 +171,28 @@ html {
 }
 
 .about__heading {
-    font-size: 2.8rem;
+    font-size: 3.3rem;
     font-weight: 300;
     color: #fff;
 }
 
 .aes-line {
-    margin: 16px 0;
+    margin: 20px 0;
     display: block;
-    width: 160px;
+    width: 200px;
     height: 1px;
     background-color: rgba(255,255,255,0.6);
 }
 
 .about__desc {
     color: #757575;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
     text-align: justify;
 }
 
 .about__heading-small {
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 300;
     padding: 12px 0;
     color: #fff;
@@ -199,7 +201,7 @@ html {
 .about__skill {
     color: #757575;
     letter-spacing: 3px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 300;
 }
 
@@ -207,14 +209,33 @@ html {
     display: block;
     background-color: #fff;
     width: 100%;
-    height: 2.3rem;
-    margin: 12px 0;
+    height: 2.8rem;
+    margin: 18px 0;
 }
 
+
+
+.about__chart-filled.filled-95{
+}
+
+/* .about__chart-filled{ 
+    animation: growUp ease-in 1s;
+} */
+
+@keyframes growUp95{
+    from{
+        background-color: #ccc;
+        width: 0;
+    }   
+    to{
+        background-color: #616161;
+        width: 95%;
+    }
+}
 .about__chart-filled {
     display: block;
     background-color: #616161;
-    height: 2.3rem;
+    height: 100%;
     position: relative;
 }
 
@@ -232,11 +253,11 @@ html {
 }
 
 .about__stats {
-    height: 100px;
+    height: 125px;
     width: 100%;
     display: block;
     background-color: #f1f1f1;
-    margin-top: 32px;
+    margin-top: 38px;
 }
 
 .about__stats-list {
@@ -255,25 +276,25 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .about__stats-item span {
-    margin: 4px 0;
+    margin: 8px 0;
 }
 
 .about__stats-item-num {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
 }
 
 /* download btn */
 .download-btn {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-weight: 300;
 }
 
 .download-btn-icon {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .download-btn:hover {
@@ -286,8 +307,8 @@ html {
 
 .pricing__heading {
     margin:0;
-    height: 80px;
-    font-size: 2rem;
+    height: 100px;
+    font-size: 2.5rem;
     font-weight: 300;
     background-color:#616161;
     display: flex;
@@ -304,27 +325,28 @@ html {
 }
 
 .pricing__item {
-    padding:12px;
+    padding:20px;
     color: #000;
     border-bottom: 1px solid #ddd;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 300;
 }
 
 .pricing__item-offer {
-    padding:24px;
+    padding:40px 0 16px 0;
     color: #000;
+    border-bottom: 1px solid #ddd;
 }
 
 .pricing__price-price {
-    font-size: 2.2rem;
-    margin: 0 0 12px 0;
-    font-weight: 300;
+    font-size: 2.8rem;
+    margin: 0 0 28px 0;
+    font-weight: 400;
 }
 
 .pricing__price-text {
     color: rgba(0,0,0,0.6);
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 300;
 }
 
@@ -332,12 +354,12 @@ html {
 .signup-btn__wrapper {
     background-color: #f1f1f1;
     display: flex;
-    height: 76px;
+    padding: 24px 16px;
 }
 .signup-btn {
-    padding: 9.6px 19.2px;
+    padding: 16px 28px;
     font-weight: 300;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     background-color: #fff;
     min-width: 86px;
     margin:auto;
@@ -360,22 +382,23 @@ html {
 .reputation-reviewer-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    letter-spacing: 1px;
 }
 
 .reputation-img {
-    width: 64px;
+    width: 80px;
     border-radius: 50%;
     margin-right: 12px;
     align-self: flex-start;
 }
 
 .reviewer-occupation {
-    margin-left: 12px;
+    margin-left: 16px;
 }
 
 .reputation-comment {
-
+    line-height: 2.4rem;
 }
 
 .reviewer-list {
@@ -383,19 +406,20 @@ html {
     display: flex;
     flex-direction: column;
     color: #757575;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 300;
     margin: 0;
     padding: 0;
 }
 .reviewer-item {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .photo_img {
     width: 100%;
 }
+
 
 .contact__method {
     color: #fff;
@@ -405,7 +429,7 @@ html {
 
 
 .contact__method-icon {
-    font-size: 2.8rem;
+    font-size: 3.3rem;
     margin: 0 12px;
 }
 
@@ -419,41 +443,44 @@ html {
 
 .contact__desc {
     color: #757575;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 300;
+    margin-left: 12px;
 }
 
 .contact__text {
     color: #757575;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 300;
-    margin: 48px 0 12px 0;
+    margin: 48px 0 20px 0;
 }
 
 .contact__inputs-form {
-    margin: 12px 0;
+    margin: 16px 0;
 }
 
 .contact__input-form-control {
     width: 100%;
-    padding: 14px 12px;
+    padding: 18px 12px;
     border: none;
     outline: none;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 300;
 }
 
 
 .send-msg-btn {
-    min-width: 148px;
-    font-size: 1.3rem;
+    min-width: auto;
+    font-size: 1.7rem;
     font-weight: 300;
     text-transform: uppercase;
     margin-top: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .send-msg-btn-icon {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 .send-msg-btn:hover {
@@ -463,7 +490,7 @@ html {
 /* footer */
 .footer {
     color: #757575;
-    padding:114px 0 64px 0;
+    padding:168px 0 64px 0;
 }
 
 .footer__socials {
@@ -475,7 +502,12 @@ html {
 
 .footer__socials-item {
     margin: 0 2px;
-    font-size: 2rem;
+    font-size: 2.4rem;
+}
+
+.footer__socials-item:hover {
+    color: #fff;
+    cursor: pointer;
 }
 
 .footer__socials-item:first-child {
@@ -483,8 +515,9 @@ html {
 }
 
 .footer__text {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-size: 300;
+    margin: 20px 0;
 }
 
 .footer__origin {
