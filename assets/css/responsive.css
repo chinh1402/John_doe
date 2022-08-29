@@ -63,7 +63,7 @@
     }
 
     .footer {
-        padding: 168px 0 100px 0;
+        padding: 168px 0 32px 0;
     }
 
     .sidebar__list {
@@ -87,12 +87,16 @@
         right:0;
         left: 0;
         width: unset;
-        height: 34px;
+        height: 40px;
         background-color: rgba(0,0,0,0.6);
     }
 
     .sidebar-item .sidebar-item-link:hover {
         color: #000;
         background-color: #ccc;
+    }
+
+    .sidebar-item--actived .sidebar-item-link {
+        background-color: unset;
     }
 }
