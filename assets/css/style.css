@@ -167,9 +167,11 @@ html {
 }
 
 .home__heading {
-    font-size: 7.5rem;
+    font-size: 7rem;
     font-weight: 300;
 }
+
+
 
 .home__desc {
     font-size: 1.7rem;
@@ -184,6 +186,7 @@ html {
 /* About */
 .about {
     color: var(--text-color);
+    padding-top: 32px;
 }
 
 .about__heading {
@@ -432,8 +435,16 @@ html {
     margin-bottom: 24px;
 }
 
+.photo {
+    padding-top: 32px;
+}
+
 .photo_img {
     width: 100%;
+}
+
+.contact {
+    padding-top: 32px;
 }
 
 

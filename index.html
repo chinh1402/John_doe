@@ -25,12 +25,14 @@
           ===> embed from google is good -->
      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" >         
      <link rel="stylesheet" href="assets/css/style.css">
+     <link rel="stylesheet" href="assets/css/grid.css">
+     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
      <div class="app">
           <div class="sidebar">
-               <div class="sidebar__wrapper">
-                    <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="" class="sidebar__avatar">
+               <div class="sidebar__wrapper hide-on-tablet">
+                    <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="" class="sidebar__avatar hide-on-mobile">
                     <ul class="sidebar__list">
                          <li class="sidebar-item sidebar-item--actived">
                               <a href="#home" class="sidebar-item-link">
@@ -60,14 +62,14 @@
                </div>
           </div>
           <div class="containter">
-               <div class="grid">
-                    <div class="home">
-                         <h1 class="home__heading">I'm John Doe.</h1>
+               <div class="grid wide">
+                    <div class="home" id="home">
+                         <h1 class="home__heading"><span class="hide-on-mobile">I'm</span> John Doe.</h1>
                          <p class="home__desc">Photographer and Web Designer.</p>
                          <img src="https://www.w3schools.com/w3images/man_smoke.jpg" alt="" class="home__img">
                     </div>
 
-                    <div class="about" id="about">
+                    <div class="about pt-mobile-48" id="about">
                          <h3 class="about__heading">
                               My Name
                          </h3>
@@ -125,8 +127,8 @@
                          <h3 class="about__heading-small">
                               My Price
                          </h3>
-                         <div class="grid__row">
-                              <div class="grid__column-2">
+                         <div class="row">
+                              <div class="col l-6 m-6 c-12">
                                    <div class="pricing">
                                         <h4 class="pricing__heading">
                                              Basic
@@ -146,7 +148,7 @@
                                         </div>     
                                    </div>
                               </div>
-                              <div class="grid__column-2">
+                              <div class="col l-6 m-6 c-12 mgt-mobile-16">
                                    <div class="pricing">
                                         <h4 class="pricing__heading">
                                              Pro
@@ -208,18 +210,18 @@
                          </ul>
                     </div>
 
-                    <div class="photo" id="photo">
+                    <div class="photo pt-mobile-48" id="photo">
                          <h3 class="about__heading">
                               My Photos
                          </h3>
                          <span class="aes-line"></span>
-                         <div class="grid__row">
-                              <div class="grid__column-2">
+                         <div class="row">
+                              <div class="col l-6 m-6 c-12">
                                    <img src="https://www.w3schools.com/w3images/wedding.jpg" alt=""  class="photo_img">
                                    <img src="https://www.w3schools.com/w3images/rocks.jpg" alt="" class="photo_img">
                                    <img src="https://www.w3schools.com/w3images/sailboat.jpg" alt="" class="photo_img">
                               </div>
-                              <div class="grid__column-2">
+                              <div class="col l-6 m-6 c-12">
                                    <img src="https://www.w3schools.com/w3images/underwater.jpg" alt="" class="photo_img">
                                    <img src="https://www.w3schools.com/w3images/chef.jpg" alt="" class="photo_img">
                                    <img src="https://www.w3schools.com/w3images/wedding.jpg" alt="" class="photo_img">
@@ -228,7 +230,7 @@
                          </div>
                     </div>
 
-                    <div class="contact" id="contact">
+                    <div class="contact pt-mobile-48" id="contact">
                          <h3 class="about__heading">
                               Contact me
                          </h3>

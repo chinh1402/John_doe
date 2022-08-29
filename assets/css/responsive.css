@@ -1,0 +1,98 @@
+/* mobile and tablet */
+@media (max-width: 1024px) { 
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .containter {
+        margin-left: 0;
+    }
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width:1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+/* mobile */
+
+@media (max-width:739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .mgt-mobile-16 {
+        margin-top: 16px;
+    }
+
+    .pt-mobile-48 {
+        padding-top: 48px;
+    }
+
+
+    .home__heading {
+        margin: 24px 0 0 0;
+        line-height:10rem;
+    }
+
+    .about__stats {
+        height: fit-content;
+    }
+
+    .about__stats-list {
+        flex-direction: column;
+        padding: 16px 0;
+    }
+
+    .about__stats-item {
+        padding: 13px 0;
+    }
+
+    .reviewer-occupation {
+        margin: 16px 0 0 0;
+    }
+
+    .reputation-reviewer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photo_img {
+        margin: 4px 0;
+    }
+
+    .footer {
+        padding: 168px 0 100px 0;
+    }
+
+    .sidebar__list {
+        top: unset;
+        height: 100%;
+        flex-direction: row;
+    }
+
+    .sidebar-icon {
+        display: none;
+    }
+
+    .sidebar-item-link span {
+
+        margin: auto;
+    }
+
+    .sidebar__wrapper {
+        top:0;
+        bottom: unset;
+        right:0;
+        left: 0;
+        width: unset;
+        height: 34px;
+        background-color: rgba(0,0,0,0.6);
+    }
+
+    .sidebar-item .sidebar-item-link:hover {
+        color: #000;
+        background-color: #ccc;
+    }
+}
