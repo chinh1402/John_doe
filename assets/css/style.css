@@ -383,6 +383,7 @@ html {
     background-color: #fff;
     min-width: 86px;
     margin:auto;
+    border-radius:100px;
 }
 
 .signup-btn:hover {
